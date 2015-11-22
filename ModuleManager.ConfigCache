@@ -1,0 +1,434 @@
+		Body
+		{
+			name = Neidon
+			flightGlobalsIndex = 182
+			cacheFile = OPM/KopernicusConfigs/OuterPlanets/Cache/Neidon.bin
+			Properties
+			{
+				description = Due to its distance from Kerbin, it wasn't until fairly recently that Kerbalkind discovered the Kerbol system's most distant planet. At first scientists thought Neidon might be an orange, rocky planet like Duna, but they quickly realized they were in fact looking at an ice giant similar to Urlum.
+				radius = 2145000
+				geeASL = 0.314
+				rotates = true
+				rotationPeriod = 40250
+				tidallyLocked = false
+				initialRotation = 0
+				isHomeWorld = false
+				timewarpAltitudeLimits = 0 30000 30000 75000 150000 300000 600000 1200000
+				ScienceValues
+				{
+					flyingLowDataValue = 14
+					flyingHighDataValue = 13.5
+					inSpaceLowDataValue = 13
+					inSpaceHighDataValue = 12.5
+					recoveryValue = 13
+					flyingAltitudeThreshold = 100000
+					spaceAltitudeThreshold = 1500000
+				}
+			}
+			Orbit
+			{
+				referenceBody = Sun
+				color = 0.901961,0.505882,0.156863,1
+				inclination = 1.27
+				eccentricity = 0.0127567
+				semiMajorAxis = 409355191706
+				longitudeOfAscendingNode = 259
+				argumentOfPeriapsis = 0
+				meanAnomalyAtEpoch = 2.27167344093323
+				epoch = 99.6799999999973
+			}
+			Atmosphere
+			{
+				ambientColor = 0.725,0.826,0.904,1
+				lightColor = 0.725,0.826,0.904,1
+				enabled = true
+				oxygen = false
+				albedo = 0.41
+				altitude = 111000.0
+				pressureCurveIsNormalized = false
+				temperatureSeaLevel = 72
+				temperatureCurveIsNormalized = false
+				temperatureLapseRate = 0.0024
+				temperatureSunMultCurve = true
+				adiabaticIndex = 1.426
+				gasMassLapseRate = 2.06477390407027
+				atmosphereMolarMass = 0.0027999999
+				pressureCurve
+				{
+					key = 0 607.95 -3.22446378378378E-02 -3.22446378378378E-02
+					key = 5550 428.9922 -2.53243243243243E-02 -2.53243243243243E-02
+					key = 11100 326.84992 -1.49359459459459E-02 -1.49359459459459E-02
+					key = 16650 263.20316 -1.06735297297297E-02 -1.06735297297297E-02
+					key = 22200 208.37376 -9.08382054054054E-03 -9.08382054054054E-03
+					key = 27750 162.37276 -7.55131351351351E-03 -7.55131351351351E-03
+					key = 33300 124.55416 -6.1649372972973E-03 -6.1649372972973E-03
+					key = 38850 93.94196 -4.95441189189189E-03 -4.95441189189189E-03
+					key = 44400 69.5602 -3.91973297297297E-03 -3.91973297297297E-03
+					key = 49950 50.43292 -3.06090810810811E-03 -3.06090810810811E-03
+					key = 55500 35.58412 -2.37793945945946E-03 -2.37793945945946E-03
+					key = 61050 24.0378 -1.87082162162162E-03 -1.87082162162162E-03
+					key = 66600 14.818 -1.44953513513514E-03 -1.44953513513514E-03
+					key = 72150 7.94796 -8.75509945945946E-04 -8.75509945945946E-04
+					key = 77700 5.09984 -3.55672E-04 -3.55672E-04
+					key = 83250 4 -1.99210810810811E-04 -1.99210810810811E-04
+					key = 88800 2.8886 -1.97326162162162E-04 -1.97326162162162E-04
+					key = 94350 1.80968 -1.80374810810811E-04 -1.80374810810811E-04
+					key = 99900 0.88644 -1.41218054054054E-04 -1.41218054054054E-04
+					key = 105450 0.24216 -7.98594594594595E-05 -7.98594594594595E-05
+					key = 111000 0 -4.36324324324324E-05 -4.36324324324324E-05
+				}
+				temperatureCurve
+				{
+					key = 0 72 -0.005780781081 -0.005780781081
+					key = 13320 53.08818011 -0.0008187917117 -0.0008162677477
+					key = 23310 53.08818011 0.0008162677477 0.0008162677477
+					key = 34410 66.59662289 0.0004461390991 0.0004461390991
+					key = 62160 66.59662289 -0.0006152507207 -0.0006152507207
+					key = 88800 45.96554665 -0.0008187917117 -0.0008187917117
+					key = 99900 45.96554665 0.0004268238739 0.0004268238739
+					key = 111000 56.52669282 0.0006257694595 0.0006257694595
+					key = 166500 0 -0.0004050532432 -0.0004050532432
+				}
+				temperatureSunMultCurve
+				{
+					key = 8538.461539 0.5 -0.00005405405405 -0.00009247288288
+					key = 9408.556385 0 0 0
+					key = 17130.6983 0 0 0
+					key = 40429.01769 0.2 0 0
+					key = 61306.29046 0.2 0 0
+					key = 77947.2738 0 0 0
+					key = 111000 0.4 0 0
+				}
+			}
+			ScaledVersion
+			{
+				type = Atmospheric
+				fadeStart = 0
+				fadeEnd = 0
+				Material
+				{
+					texture = Sigma/OPMRecolor/PluginData/Textures/Neidon_color.dds
+					shininess = 0
+					specular = 0.0,0.0,0.0,1.0
+					rimPower = 2.06
+					rimBlend = 0.3
+					Gradient
+					{
+						0.0 = 0.87843,0.52157,0.43922,1
+						0.6 = 0.0549,0.0784,0.141,1
+						1.0 = 0.0196,0.0196,0.0196,1
+					}
+				}
+				ProceduralGasGiant
+				{
+					rampTexture = Sigma/OPMRecolor/Extras/Neidon_ramp
+					cloudSpeed = 60
+					hasStorms = false
+					stormFrequency = 0
+					stormThreshold = 0
+					seed = 23871
+					distortion = 0.007
+					frequency = 6.218
+					lacunarity = 1.189
+					gain = 0.848
+				}
+			}
+		}
+		Body
+		{
+			name = Sarnus
+			flightGlobalsIndex = 180
+			cacheFile = OPM/KopernicusConfigs/OuterPlanets/Cache/Sarnus.bin
+			Properties
+			{
+				description = Early astronomers believed Sarnus was in fact multiple planets, closely orbiting together. When they cleaned their telescopes, they realized that those extra planets were in fact thin rings orbiting Sarnus. Regular cleaning of telescope lenses became mandatory after that.
+				radius = 5300000
+				geeASL = 0.298
+				rotates = true
+				rotationPeriod = 28500
+				tidallyLocked = false
+				initialRotation = 0
+				isHomeWorld = false
+				timewarpAltitudeLimits = 0 90000 90000 175000 350000 500000 700000 1200000
+				ScienceValues
+				{
+					flyingLowDataValue = 10
+					flyingHighDataValue = 9.5
+					inSpaceLowDataValue = 9
+					inSpaceHighDataValue = 8.5
+					recoveryValue = 9
+					flyingAltitudeThreshold = 275000
+					spaceAltitudeThreshold = 3500000
+				}
+			}
+			Orbit
+			{
+				referenceBody = Sun
+				color = 0.588235,0.686275,1,1
+				inclination = 2.02
+				eccentricity = 0.0534
+				semiMajorAxis = 125798522368
+				longitudeOfAscendingNode = 184
+				argumentOfPeriapsis = 0
+				meanAnomalyAtEpoch = 2.88114666938782
+				epoch = 359.279999999964
+			}
+			Rings
+			{
+				Ring
+				{
+					angle = 0
+					innerRadius = 1500
+					outerRadius = 2500
+					texture = Sigma/OPMRecolor/Extras/Sarnus_ring
+					color = 1,1,1,1
+					lockRotation = true
+					unlit = true
+				}
+			}
+			Atmosphere
+			{
+				ambientColor = 0.781,0.725,0.758,1
+				lightColor = 0.781,0.725,0.758,1
+				enabled = true
+				oxygen = false
+				albedo = 0.39
+				altitude = 304000.0
+				pressureCurveIsNormalized = false
+				temperatureSeaLevel = 134
+				temperatureCurveIsNormalized = false
+				temperatureLapseRate = 0.0024
+				temperatureSunMultCurve = true
+				adiabaticIndex = 1.426
+				gasMassLapseRate = 2.06477390407027
+				atmosphereMolarMass = 0.0027999999
+				pressureCurve
+				{
+					key = 0 1418.55 -2.74715828947368E-02 -2.74715828947368E-02
+					key = 15200 1000.9818 -2.15756578947368E-02 -2.15756578947368E-02
+					key = 30400 762.6498133 -1.27250328947368E-02 -1.27250328947368E-02
+					key = 45600 614.1407067 -9.09356644736842E-03 -9.09356644736842E-03
+					key = 60800 486.20544 -7.73917605263158E-03 -7.73917605263158E-03
+					key = 76000 378.8697733 -6.43352039473684E-03 -6.43352039473684E-03
+					key = 91200 290.6263733 -5.25236434210526E-03 -5.25236434210526E-03
+					key = 106400 219.1979067 -4.22102855263158E-03 -4.22102855263158E-03
+					key = 121600 162.3071333 -3.33950934210526E-03 -3.33950934210526E-03
+					key = 136800 117.6768133 -2.60781315789474E-03 -2.60781315789474E-03
+					key = 152000 83.02961333 -2.02594184210526E-03 -2.02594184210526E-03
+					key = 167200 56.0882 -1.59389078947368E-03 -1.59389078947368E-03
+					key = 182400 34.57533333 -1.23496578947368E-03 -1.23496578947368E-03
+					key = 197600 18.54524 -7.45911434210526E-04 -7.45911434210526E-04
+					key = 212800 11.89962667 -3.03023184210526E-04 -3.03023184210526E-04
+					key = 228000 9.333333333 -1.69722368421053E-04 -1.69722368421053E-04
+					key = 243200 6.740066667 -1.68116697368421E-04 -1.68116697368421E-04
+					key = 258400 4.222586667 -1.53674592105263E-04 -1.53674592105263E-04
+					key = 273600 2.06836 -1.20314065789474E-04 -1.20314065789474E-04
+					key = 288800 0.56504 -6.80381578947369E-05 -6.80381578947369E-05
+					key = 304000 0 -3.71736842105263E-05 -3.71736842105263E-05
+				}
+				temperatureCurve
+				{
+					key = 0 134 -0.002110745724 -0.002110745724
+					key = 36480 98.80300188 -0.0002989667105 -0.0002980451316
+					key = 63840 98.80300188 0.0002980451316 0.0002980451316
+					key = 94240 123.9437148 0.0001628994737 0.0001628994737
+					key = 170240 123.9437148 -0.0002246474671 -0.0002246474671
+					key = 243200 85.5469896 -0.0002989667105 -0.0002989667105
+					key = 273600 85.5469896 0.000155846875 0.000155846875
+					key = 304000 105.2024561 0.0002284881908 0.0002284881908
+					key = 456000 0 -0.0001478977303 -0.0001478977303
+				}
+				temperatureSunMultCurve
+				{
+					key = 23384.61539 0.5 -0.00001973684211 -0.00003376476974
+					key = 25767.57785 0 0 0
+					key = 46916.50706 0 0 0
+					key = 110724.5169 0.2 0 0
+					key = 167901.9126 0.2 0 0
+					key = 213477.2183 0 0 0
+					key = 304000 0.4 0 0
+				}
+			}
+			ScaledVersion
+			{
+				type = Atmospheric
+				fadeStart = 0
+				fadeEnd = 0
+				Material
+				{
+					texture = Sigma/OPMRecolor/PluginData/Textures/Sarnus_color.dds
+					shininess = 0
+					specular = 0.0,0.0,0.0,1.0
+					rimPower = 2.06
+					rimBlend = 0.3
+					Gradient
+					{
+						0.0 = 0.72549,0.81961,0.83529,1
+						0.6 = 0.0549,0.0784,0.141,1
+						1.0 = 0.0196,0.0196,0.0196,1
+					}
+				}
+				ProceduralGasGiant
+				{
+					rampTexture = Sigma/OPMRecolor/Extras/Sarnus_ramp
+					cloudSpeed = 50
+					hasStorms = false
+					stormFrequency = 0
+					stormThreshold = 0
+					seed = 982321
+					distortion = 0.003
+					frequency = 6.982
+					lacunarity = 0.8129
+					gain = 1.402
+				}
+			}
+		}
+		Body
+		{
+			name = Urlum
+			flightGlobalsIndex = 181
+			cacheFile = OPM/KopernicusConfigs/OuterPlanets/Cache/Urlum.bin
+			Properties
+			{
+				description = It took a while for Kerbal astronomers to realize Urlum was not a far away star, but in fact another planet. Since then scientists have been weary of making claims about Urlum, for fear of being wrong yet again. The ice giant is unusual in that it rotates around its axis in a clockwise fashion, unlike the anti-clockwise rotation of the other planets.
+				radius = 2177000
+				geeASL = 0.257
+				rotates = true
+				rotationPeriod = 41000
+				tidallyLocked = false
+				initialRotation = 0
+				isHomeWorld = false
+				timewarpAltitudeLimits = 0 30000 30000 75000 200000 400000 600000 1200000
+				ScienceValues
+				{
+					flyingLowDataValue = 12
+					flyingHighDataValue = 11.5
+					inSpaceLowDataValue = 11
+					inSpaceHighDataValue = 10.5
+					recoveryValue = 11
+					flyingAltitudeThreshold = 113000
+					spaceAltitudeThreshold = 1450000
+				}
+			}
+			Orbit
+			{
+				referenceBody = Sun
+				color = 1,0.592159,0.592157,1
+				inclination = 0.64
+				eccentricity = 0.045214674
+				semiMajorAxis = 254317012787
+				longitudeOfAscendingNode = 61
+				argumentOfPeriapsis = 0
+				meanAnomalyAtEpoch = 5.59607362747192
+				epoch = 422.539999999906
+			}
+			Rings
+			{
+				Ring
+				{
+					angle = 0
+					innerRadius = 4750
+					outerRadius = 6000
+					texture = OPM/KopernicusConfigs/OuterPlanets/RingTextures/Urlum_ring
+					color = 1,1,1,1
+					lockRotation = true
+					unlit = true
+				}
+			}
+			Atmosphere
+			{
+				ambientColor = 0.725,0.826,0.904,1
+				lightColor = 0.725,0.826,0.904,1
+				enabled = true
+				oxygen = false
+				albedo = 0.51
+				altitude = 125000.0
+				pressureCurveIsNormalized = false
+				temperatureSeaLevel = 76
+				temperatureCurveIsNormalized = false
+				temperatureLapseRate = 0.0024
+				temperatureSunMultCurve = true
+				adiabaticIndex = 1.426
+				gasMassLapseRate = 2.06477390407027
+				atmosphereMolarMass = 0.0027999999
+				pressureCurve
+				{
+					key = 0 709.275 -3.34054448E-02 -3.34054448E-02
+					key = 6250 500.4909 -2.6236E-02 -2.6236E-02
+					key = 12500 381.3249067 -1.547364E-02 -1.547364E-02
+					key = 18750 307.0703533 -1.10577768E-02 -1.10577768E-02
+					key = 25000 243.10272 -9.41083808E-03 -9.41083808E-03
+					key = 31250 189.4348867 -7.8231608E-03 -7.8231608E-03
+					key = 37500 145.3131867 -6.38687504E-03 -6.38687504E-03
+					key = 43750 109.5989533 -5.13277072E-03 -5.13277072E-03
+					key = 50000 81.15356667 -4.06084336E-03 -4.06084336E-03
+					key = 56250 58.83840667 -3.1711008E-03 -3.1711008E-03
+					key = 62500 41.51480667 -2.46354528E-03 -2.46354528E-03
+					key = 68750 28.0441 -1.9381712E-03 -1.9381712E-03
+					key = 75000 17.28766667 -1.5017184E-03 -1.5017184E-03
+					key = 81250 9.27262 -9.07028304E-04 -9.07028304E-04
+					key = 87500 5.949813333 -3.68476192E-04 -3.68476192E-04
+					key = 93750 4.666666667 -2.063824E-04 -2.063824E-04
+					key = 100000 3.370033333 -2.04429904E-04 -2.04429904E-04
+					key = 106250 2.111293333 -1.86868304E-04 -1.86868304E-04
+					key = 112500 1.03418 -1.46301904E-04 -1.46301904E-04
+					key = 118750 0.28252 -8.27344E-05 -8.27344E-05
+					key = 125000 0 -4.52032E-05 -4.52032E-05
+				}
+				temperatureCurve
+				{
+					key = 0 76 -0.0051333336 -0.0051333336
+					key = 15000 56.03752345 -0.00072708704 -0.00072484576
+					key = 26250 56.03752345 0.00072484576 0.00072484576
+					key = 38750 70.29643527 0.00039617152 0.00039617152
+					key = 70000 70.29643527 -0.00054634264 -0.00054634264
+					key = 100000 48.51918813 -0.00072708704 -0.00072708704
+					key = 112500 48.51918813 0.0003790196 0.0003790196
+					key = 125000 59.66706464 0.00055568328 0.00055568328
+					key = 187500 0 -0.00035968728 -0.00035968728
+				}
+				temperatureSunMultCurve
+				{
+					key = 9615.384616 0.5 -0.000048 -0.00008211592
+					key = 10595.22115 0 0 0
+					key = 19291.32692 0 0 0
+					key = 45528.17307 0.2 0 0
+					key = 69038.61539 0.2 0 0
+					key = 87778.46149 0 0 0
+					key = 125000 0.4 0 0
+				}
+			}
+			ScaledVersion
+			{
+				type = Atmospheric
+				fadeStart = 0
+				fadeEnd = 0
+				Material
+				{
+					texture = Sigma/OPMRecolor/PluginData/Textures/Urlum_color.dds
+					shininess = 0
+					specular = 0.0,0.0,0.0,1.0
+					rimPower = 2.06
+					rimBlend = 0.3
+					Gradient
+					{
+						0.0 = 0.87843,0.52157,0.43922,1
+						0.6 = 0.0549,0.0784,0.141,1
+						1.0 = 0.0196,0.0196,0.0196,1
+					}
+				}
+				ProceduralGasGiant
+				{
+					rampTexture = Sigma/OPMRecolor/Extras/Urlum_ramp
+					cloudSpeed = 250
+					hasStorms = false
+					stormFrequency = 0
+					stormThreshold = 0
+					seed = 34324
+					distortion = 0.002
+					frequency = 5.281
+					lacunarity = 0.721
+					gain = 1.921
+				}
+			}
+		}
